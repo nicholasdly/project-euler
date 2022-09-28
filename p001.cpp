@@ -22,7 +22,8 @@ int multiples_of_three_or_five(int threshold)
 
 int main()
 {
-    int sum = multiples_of_three_or_five(1000);
+    int threshold = 1000;
+    int sum = multiples_of_three_or_five(threshold);
     cout << sum;
     return 0;
 }
