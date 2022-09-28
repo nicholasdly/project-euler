@@ -9,7 +9,8 @@ using namespace std;
  * @param threshold The range (exclusive) of allowed numbers to be summed.
  * @return Sum of all even fibonacci numbers.
  */
-int even_fibonacci_numbers(int threshold) {
+int even_fibonacci_numbers(int threshold)
+{
     int a = 1;
     int b = 2;
     int sum = 0;
@@ -24,7 +25,8 @@ int even_fibonacci_numbers(int threshold) {
     return sum;
 }
 
-int main() {
+int main()
+{
     int threshold = 4000000;
     int sum = even_fibonacci_numbers(threshold);
     cout << sum;
