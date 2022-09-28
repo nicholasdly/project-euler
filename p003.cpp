@@ -47,7 +47,8 @@ int largest_prime_factor(long long int num)
 
 int main()
 {
-    int lpf = largest_prime_factor(600851475143);
+    long long int n = 600851475143;
+    int lpf = largest_prime_factor(n);
     cout << lpf;
     return 0;
 }
