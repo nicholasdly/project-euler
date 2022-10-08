@@ -29,7 +29,6 @@ vector<int> sieve_of_eratosthenes(int threshold)
     vector<int> primes;
     for (int i = 0; i < isPrimes.size(); i++) {
         if (isPrimes[i]) {
-            // cout << i << "\n";
             primes.push_back(i);
         }
     }
